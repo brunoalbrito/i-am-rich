@@ -1,0 +1,26 @@
+# Xcode build and temporary files
+build/
+DerivedData/
+
+# User-specific Xcode settings (Crucial for Storyboard projects)
+# This prevents tracking window sizes, open tabs, and local UI state
+*.xcuserdatad
+*.xcuserstate
+xcuserdata/
+
+# Xcode workspaces and schemes
+# Un-comment the next line if you want to ignore user-specific schemes
+# IndividualSchemes/
+
+# Crash logs and diagnostics
+*.crash
+*.gpu
+*.trace
+
+# macOS system files
+.DS_Store
+Files.localized
+
+# Swift Package Manager local caches
+.build/
+.swiftpm/
